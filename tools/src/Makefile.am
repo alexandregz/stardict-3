@@ -229,7 +229,7 @@ wubi_SOURCES = wubi.cpp
 
 ydp2dict_LDFLAGS =
 ydp2dict_LDADD = $(STARDICT_LIBS)
-ydp2dict_SOURCES = ydp2dict.c
+ydp2dict_SOURCES = ydp2dict.c ydpdict.c
 
 wordnet_LDFLAGS =
 wordnet_LDADD = $(STARDICT_LIBS)
